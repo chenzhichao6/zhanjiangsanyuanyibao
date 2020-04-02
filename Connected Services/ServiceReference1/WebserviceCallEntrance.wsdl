@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://interfaces.webservice.iruitech.com/" name="WebserviceCallEntrance" targetNamespace="http://interfaces.webservice.iruitech.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://interfaces.webservice.iruitech.com/" elementFormDefault="unqualified" targetNamespace="http://interfaces.webservice.iruitech.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="CallFun" type="tns:CallFun" />
+      <xs:element name="CallFunResponse" type="tns:CallFunResponse" />
+      <xs:complexType name="CallFun">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CallFunResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="CallFunResponse">
+    <wsdl:part name="parameters" element="ns1:CallFunResponse" />
+  </wsdl:message>
+  <wsdl:message name="CallFun">
+    <wsdl:part name="parameters" element="ns1:CallFun" />
+  </wsdl:message>
+  <wsdl:portType name="WebserviceCallEntrance">
+    <wsdl:operation name="CallFun">
+      <wsdl:input name="CallFun" message="ns1:CallFun" />
+      <wsdl:output name="CallFunResponse" message="ns1:CallFunResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

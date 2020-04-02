@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsFormsApp1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WindowsFormsApp1_WebReference_STYDJY" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://130.33.10.160:8002/web/services/STYDJY.STYDJYHttpSoap11Endpoint/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

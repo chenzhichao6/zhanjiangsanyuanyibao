@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://impl.webservice.iruitech.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://interfaces.webservice.iruitech.com/" name="WebserviceCallEntranceImplService" targetNamespace="http://impl.webservice.iruitech.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://interfaces.webservice.iruitech.com/" location="http://120.76.223.229:1080/sayifpf/webService/FdaWsOutsideEntrance?wsdl=WebserviceCallEntrance.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="WebserviceCallEntranceImplServiceSoapBinding" type="ns1:WebserviceCallEntrance">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CallFun">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="CallFun">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CallFunResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebserviceCallEntranceImplService">
+    <wsdl:port name="WebserviceCallEntranceImplPort" binding="tns:WebserviceCallEntranceImplServiceSoapBinding">
+      <soap:address location="http://120.76.223.229:1080/sayifpf/webService/FdaWsOutsideEntrance" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

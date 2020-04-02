@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ax23="http://insurance.jetsun.com/xsd" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://pojo.webservice.service.ybdy.sinobest.cn" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://pojo.webservice.service.ybdy.sinobest.cn" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>STYDJY</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://insurance.jetsun.com/xsd">
+      <xs:complexType name="DataExchangeServiceReturnType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="outxml" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="syscode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sysmsg" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema xmlns:ax24="http://insurance.jetsun.com/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://pojo.webservice.service.ybdy.sinobest.cn">
+      <xs:import namespace="http://insurance.jetsun.com/xsd" />
+      <xs:element name="STYDJYException">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="STYDJYException" nillable="true" type="ns:Exception" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="Exception">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="test">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TransNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Inxml" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="testResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="STYDJKService">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TransNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Inxml" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="STYDJKServiceResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DataExchangeServiceEnc">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TransNo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="inBytes" nillable="true" type="xs:base64Binary" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DataExchangeServiceEncResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax24:DataExchangeServiceReturnType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="DataExchangeServiceEncRequest">
+    <wsdl:part name="parameters" element="ns:DataExchangeServiceEnc" />
+  </wsdl:message>
+  <wsdl:message name="DataExchangeServiceEncResponse">
+    <wsdl:part name="parameters" element="ns:DataExchangeServiceEncResponse" />
+  </wsdl:message>
+  <wsdl:message name="STYDJYException">
+    <wsdl:part name="parameters" element="ns:STYDJYException" />
+  </wsdl:message>
+  <wsdl:message name="testRequest">
+    <wsdl:part name="parameters" element="ns:test" />
+  </wsdl:message>
+  <wsdl:message name="testResponse">
+    <wsdl:part name="parameters" element="ns:testResponse" />
+  </wsdl:message>
+  <wsdl:message name="STYDJKServiceRequest">
+    <wsdl:part name="parameters" element="ns:STYDJKService" />
+  </wsdl:message>
+  <wsdl:message name="STYDJKServiceResponse">
+    <wsdl:part name="parameters" element="ns:STYDJKServiceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="STYDJYPortType">
+    <wsdl:operation name="DataExchangeServiceEnc">
+      <wsdl:input wsaw:Action="urn:DataExchangeServiceEnc" message="ns:DataExchangeServiceEncRequest" />
+      <wsdl:output wsaw:Action="urn:DataExchangeServiceEncResponse" message="ns:DataExchangeServiceEncResponse" />
+      <wsdl:fault wsaw:Action="urn:DataExchangeServiceEncSTYDJYException" name="STYDJYException" message="ns:STYDJYException" />
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <wsdl:input wsaw:Action="urn:test" message="ns:testRequest" />
+      <wsdl:output wsaw:Action="urn:testResponse" message="ns:testResponse" />
+      <wsdl:fault wsaw:Action="urn:testSTYDJYException" name="STYDJYException" message="ns:STYDJYException" />
+    </wsdl:operation>
+    <wsdl:operation name="STYDJKService">
+      <wsdl:input wsaw:Action="urn:STYDJKService" message="ns:STYDJKServiceRequest" />
+      <wsdl:output wsaw:Action="urn:STYDJKServiceResponse" message="ns:STYDJKServiceResponse" />
+      <wsdl:fault wsaw:Action="urn:STYDJKServiceSTYDJYException" name="STYDJYException" message="ns:STYDJYException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="STYDJYSoap11Binding" type="ns:STYDJYPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DataExchangeServiceEnc">
+      <soap:operation soapAction="urn:DataExchangeServiceEnc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="STYDJYException">
+        <soap:fault use="literal" name="STYDJYException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <soap:operation soapAction="urn:test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="STYDJYException">
+        <soap:fault use="literal" name="STYDJYException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="STYDJKService">
+      <soap:operation soapAction="urn:STYDJKService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="STYDJYException">
+        <soap:fault use="literal" name="STYDJYException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="STYDJYSoap12Binding" type="ns:STYDJYPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DataExchangeServiceEnc">
+      <soap12:operation soapAction="urn:DataExchangeServiceEnc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="STYDJYException">
+        <soap12:fault use="literal" name="STYDJYException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <soap12:operation soapAction="urn:test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="STYDJYException">
+        <soap12:fault use="literal" name="STYDJYException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="STYDJKService">
+      <soap12:operation soapAction="urn:STYDJKService" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="STYDJYException">
+        <soap12:fault use="literal" name="STYDJYException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="STYDJYHttpBinding" type="ns:STYDJYPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="DataExchangeServiceEnc">
+      <http:operation location="DataExchangeServiceEnc" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="test">
+      <http:operation location="test" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="STYDJKService">
+      <http:operation location="STYDJKService" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="STYDJY">
+    <wsdl:port name="STYDJYHttpSoap11Endpoint" binding="ns:STYDJYSoap11Binding">
+      <soap:address location="http://130.33.10.160:8002/web/services/STYDJY.STYDJYHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="STYDJYHttpSoap12Endpoint" binding="ns:STYDJYSoap12Binding">
+      <soap12:address location="http://130.33.10.160:8002/web/services/STYDJY.STYDJYHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="STYDJYHttpEndpoint" binding="ns:STYDJYHttpBinding">
+      <http:address location="http://130.33.10.160:8002/web/services/STYDJY.STYDJYHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

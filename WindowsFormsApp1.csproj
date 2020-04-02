@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09E38E1B-C14D-4BE2-A62F-4D2BD3443CFC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>q9.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APIList.cs" />
+    <Compile Include="Connected Services\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ServiceReference2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="FmLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmLoading.Designer.cs">
+      <DependentUpon>FmLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmTest.Designer.cs">
+      <DependentUpon>FmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.cs">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetup3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetup3.designer.cs">
+      <DependentUpon>FrmSetup3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSHZFMX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSHZFMX.Designer.cs">
+      <DependentUpon>FrmSHZFMX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTab.Designer.cs">
+      <DependentUpon>FrmTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baDBConn.cs" />
+    <Compile Include="hisDBConn.cs" />
+    <Compile Include="DBConn.cs" />
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\x86\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="po\cydj.cs" />
+    <Compile Include="po\dlwh.cs" />
+    <Compile Include="po\fhjzdj.cs" />
+    <Compile Include="po\fyjs.cs" />
+    <Compile Include="po\fymx.cs" />
+    <Compile Include="po\fymxlr.cs" />
+    <Compile Include="po\gxjzdj.cs" />
+    <Compile Include="po\mnjs.cs" />
+    <Compile Include="po\qj.cs" />
+    <Compile Include="po\Sfyz.cs" />
+    <Compile Include="po\zybrxx.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicCommon.cs" />
+    <Compile Include="ServiceCaller.cs" />
+    <Compile Include="Web References\WebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FmLoading.resx">
+      <DependentUpon>FmLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmTest.resx">
+      <DependentUpon>FmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetup3.resx">
+      <DependentUpon>FrmSetup3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSHZFMX.resx">
+      <DependentUpon>FrmSHZFMX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTab.resx">
+      <DependentUpon>FrmTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\WindowsFormsApp1.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\WindowsFormsApp1.Form2.resources" />
+    <EmbeddedResource Include="obj\Debug\WindowsFormsApp1.Form3.resources" />
+    <EmbeddedResource Include="obj\Debug\WindowsFormsApp1.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form1.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form10.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form11.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form12.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form13.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form14.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form15.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form2.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form3.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form4.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form5.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form6.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form7.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form8.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Form9.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.FrmSetup3.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.FrmTab.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\WindowsFormsApp1.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug.rar" />
+    <None Include="bin\Debug\WindowsFormsApp1.exe.config" />
+    <None Include="bin\Debug\WindowsFormsApp1.vshost.exe.config" />
+    <None Include="bin\Debug\WindowsFormsApp1.vshost.exe.manifest" />
+    <None Include="bin\x86\Debug\WindowsFormsApp1.exe.config" />
+    <None Include="Connected Services\ServiceReference1\WebserviceCallEntrance.wsdl" />
+    <None Include="Connected Services\ServiceReference1\WebserviceCallEntranceImplService.wsdl" />
+    <None Include="Connected Services\ServiceReference1\WindowsFormsApp1.ServiceReference1.CallFunResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceReference2\STYDJY.wsdl" />
+    <None Include="Connected Services\ServiceReference2\WindowsFormsApp1.ServiceReference2.DataExchangeServiceReturnType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="obj\Debug\CoreCompileInputs.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\x86\Debug\WindowsFormsApp1.csproj.GenerateResource.cache" />
+    <None Include="obj\x86\Debug\WindowsFormsApp1.csprojAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\WebReference\DataExchangeServiceReturnType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WebReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebReference\STYDJY.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\WindowsFormsApp1.exe" />
+    <Content Include="bin\Debug\WindowsFormsApp1.pdb" />
+    <Content Include="bin\Debug\WindowsFormsApp1.vshost.exe" />
+    <Content Include="bin\x86\Debug\baDataBase.Xml" />
+    <Content Include="bin\x86\Debug\Common.Xml" />
+    <Content Include="bin\x86\Debug\DataBase.Xml" />
+    <Content Include="bin\x86\Debug\dlwh.xml" />
+    <Content Include="bin\x86\Debug\dmdy.xml" />
+    <Content Include="bin\x86\Debug\hisDataBase.Xml" />
+    <Content Include="bin\x86\Debug\WindowsFormsApp1.exe" />
+    <Content Include="bin\x86\Debug\WindowsFormsApp1.pdb" />
+    <None Include="Connected Services\ServiceReference2\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReference2\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReference2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="obj\Debug\TempPE\Connected Services.ServiceReference1.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Connected Services.ServiceReference2.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Web References.WebReference.Reference.cs.dll" />
+    <Content Include="obj\Debug\WindowsFormsApp1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\WindowsFormsApp1.exe" />
+    <Content Include="obj\Debug\WindowsFormsApp1.pdb" />
+    <Content Include="obj\x86\Debug\TempPE\Connected Services.ServiceReference1.Reference.cs.dll" />
+    <Content Include="obj\x86\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\x86\Debug\TempPE\Web References.WebReference.Reference.cs.dll" />
+    <Content Include="obj\x86\Debug\WindowsFormsApp1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\WindowsFormsApp1.exe" />
+    <Content Include="obj\x86\Debug\WindowsFormsApp1.pdb" />
+    <Content Include="q9.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="bin\x86\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://130.33.10.160:8002/web/services/STYDJY%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReference\</RelPath>
+      <UpdateFromURL>http://130.33.10.160:8002/web/services/STYDJY%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WindowsFormsApp1_WebReference_STYDJY</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
