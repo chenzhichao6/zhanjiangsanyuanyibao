@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
         private string StrConn;
         public SqlConnection SqlDrConn = null;
         public SqlConnection SqlDaConn = null;
-        public SqlConnection SqlCmdConn = null;
+        public SqlConnection SqlCmdConn = null;;
         public static string ServerName = "";
         public static string SerUser = "";
         public static string SerPassword = "";
