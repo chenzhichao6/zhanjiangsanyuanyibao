@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GBK"?>
+<SetupDataBase>
+  <NO1>
+    <akb021>湛江市徐闻县中医院</akb021><!--医院名称-->
+    <akb026>4400001150033</akb026><!--医院编码-->
+    <aab299>440800</aab299><!--就医地市编码-->
+    <yab600>440825</yab600><!--就医地县区编码-->
+    <print>0</print>
+    <ShowCursor>1</ShowCursor>
+  </NO1>
+</SetupDataBase>

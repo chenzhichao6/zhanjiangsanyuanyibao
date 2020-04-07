@@ -1,0 +1,9 @@
+<SetupDataBase>
+  <NO1>
+    <ServerName>.</ServerName>
+    <SerUser>sa</SerUser>
+    <SerPassword>QQxuwen206420</SerPassword>
+    <SerLogin>false</SerLogin>
+    <Database>ydyb</Database>
+  </NO1>
+</SetupDataBase>

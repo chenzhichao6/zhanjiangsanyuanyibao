@@ -1,0 +1,130 @@
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\user\documents\visual studio 2017\Projects\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\Robs\work\project\sayifpf\bin\Debug\WindowsFormsApp1.exe.config
+E:\Robs\work\project\sayifpf\obj\Debug\WindowsFormsApp1.exe
+E:\Robs\work\project\sayifpf\obj\Debug\WindowsFormsApp1.pdb
+E:\Robs\work\project\sayifpf\bin\Debug\WindowsFormsApp1.exe
+E:\Robs\work\project\sayifpf\bin\Debug\WindowsFormsApp1.pdb
+E:\Robs\work\project\sayifpf\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+E:\Robs\work\project\sayifpf\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\Robs\work\project\sayifpf\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\Robs\work\project\sayifpf\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+D:\sayifpf\sayifpf\bin\Debug\WindowsFormsApp1.exe.config
+D:\sayifpf\sayifpf\bin\Debug\WindowsFormsApp1.exe
+D:\sayifpf\sayifpf\bin\Debug\WindowsFormsApp1.pdb
+D:\sayifpf\sayifpf\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\sayifpf\sayifpf\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\sayifpf\sayifpf\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\sayifpf\sayifpf\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+D:\sayifpf\sayifpf\obj\Debug\WindowsFormsApp1.exe
+D:\sayifpf\sayifpf\obj\Debug\WindowsFormsApp1.pdb
+D:\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.exe.config
+D:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.exe
+D:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.pdb
+D:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+D:\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.exe
+D:\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.pdb
+H:\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.exe.config
+H:\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.exe
+H:\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.pdb
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form1.resources
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form2.resources
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form3.resources
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.exe
+H:\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.pdb
+D:\project\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.exe.config
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.exe
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.pdb
+D:\project\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.exe
+D:\project\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.pdb
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form10.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form11.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form12.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form13.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form14.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form15.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form3.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form4.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form5.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form6.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form7.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form8.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form9.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.FrmSetup3.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.FrmTab.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\project\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form10.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form11.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form12.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form13.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form14.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form15.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form16.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form17.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form5.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form6.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form7.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form8.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Form9.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.FrmSetup3.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.FrmTab.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator.USER-20180524XQ\Desktop\YBTEST\sayifpf\bin\Debug\WindowsFormsApp1.pdb
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\bin\Debug\WindowsFormsApp1.exe.config
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\bin\Debug\WindowsFormsApp1.exe
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\bin\Debug\WindowsFormsApp1.pdb
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.FmLoading.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.FmTest.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form10.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form11.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form12.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form13.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form14.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form15.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form16.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form17.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form3.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form4.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form5.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form6.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form7.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form8.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Form9.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.FrmSetup3.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.FrmSHZFMX.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.FrmTab.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.exe
+D:\任的代码\湛江三院省内异地\YBTEST - 20190520\YBTEST - 20190520\sayifpf\obj\Debug\WindowsFormsApp1.pdb
